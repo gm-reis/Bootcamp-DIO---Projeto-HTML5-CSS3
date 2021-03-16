@@ -3,14 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
+    font-family: helvetica;
+    font-size: 13.8px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background-color: rgb(250,250,250);
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,9 +20,9 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
-    width: 60%;
-    height: 100vh;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
 }
 
 .instagram-phone {
@@ -30,10 +30,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin-right: 20px;
 }
 
 .instagram-phone img {
-    height: 50rem;
+    margin-top: 2rem;
+    height: 48rem;
 }
 
 .instagram-continue {
@@ -42,7 +44,9 @@ body {
     justify-content: space-around; /*está na vertical*/
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 15rem;
+    margin-top: 50px;
+    margin left: 70px;
 }
 
 .group {
@@ -51,17 +55,27 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 95%;
+    padding: 1rem 0;
     border: 1px solid lightgray;
+    margin: 2px;
 }
 
 .group:nth-child(1) {   /*(1)é só o primeiro quadrado*/
-    min-height: 19rem;
+    min-height: 23rem;
 }
 
+.group:nth-child(2) { 
+    margin-top: 8px;  
+    min-height: 7rem;
+    padding: 2rem 0;
+}
+
+
 .instagram-logo {
-    height: 3rem;
+    height: 3.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-photo {
@@ -70,10 +84,11 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 6.5rem;
 }
 
 .instagram-login {                  /*botão*/
@@ -81,11 +96,15 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .instagram-logout {
-    color: #0095f6;
-    margin-top: 1rem;
+    color: #219ff3;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .not-account {
@@ -93,7 +112,8 @@ body {
 }
 
 .link-blue {
-    color: #0095f6;
+    color: #219ff3;
+    font-weight: bold;
 }
 
 .get-the-app {
@@ -117,6 +137,8 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    border-radius: 3px;
+    margin-top: 5px;
 }
 
 .app-download:nth-child(1) {
